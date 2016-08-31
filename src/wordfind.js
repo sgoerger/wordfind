@@ -36,8 +36,7 @@
     */
 
     // The list of all the possible orientations
-    var allOrientations = ['horizontal','horizontalBack','vertical','verticalUp',
-                           'diagonal','diagonalUp','diagonalBack','diagonalUpBack'];
+    var allOrientations = ['horizontal','horizontalBack','vertical','verticalUp','diagonal','diagonalUp','diagonalBack','diagonalUpBack'];
 
     // The definition of the orientation, calculates the next square given a
     // starting square (x,y) and distance (i) from that square.
@@ -454,6 +453,5 @@
   root.wordfind = WordFind();
 
 }).call(this);
-
 
 
